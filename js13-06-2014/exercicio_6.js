@@ -2,5 +2,5 @@
 //de uma string.
 
 function reverse(text) {
-	return text.split("").reverse().join("");
+  return text.split("").reverse().join("");
 }

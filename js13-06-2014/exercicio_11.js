@@ -2,5 +2,5 @@
 //randomicamente
 
 function scramble(text) {
-	return text.split(" ").reverse().join(" ");
+  return text.split(" ").reverse().join(" ");
 }

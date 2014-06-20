@@ -3,7 +3,7 @@
 //também sejam por 400.
 
 function bissexto(ano) {
-	var calc = (ano % 4 === 0 && ano % 100 !== 0);
+  var calc = (ano % 4 === 0 && ano % 100 !== 0);
 
-	return calc ? "é um ano bissexto" : "não é um ano bissexto";
+  return calc ? "é um ano bissexto" : "não é um ano bissexto";
 }
