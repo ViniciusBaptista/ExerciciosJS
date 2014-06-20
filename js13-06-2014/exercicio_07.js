@@ -3,7 +3,6 @@
 
 function letterFrequence(text) {
 	var obj = {}
-	
 	for(var i = 0; i < text.length; i++) {
 		var letra = text.charAt(i);
 		if(obj[letra]) {
